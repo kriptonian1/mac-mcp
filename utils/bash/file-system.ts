@@ -1,4 +1,4 @@
-import type { listAllDirectoryInput } from "@/schema/bash/index.types";
+import type { listAllDirectoryInput } from "@/schema/index.type";
 import type { CallToolResult } from "@modelcontextprotocol/sdk/types.js";
 import { $ } from "bun";
 

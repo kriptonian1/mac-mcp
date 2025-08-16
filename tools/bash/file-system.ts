@@ -1,8 +1,6 @@
 import { getMcpServer } from "@/mcp-server";
-import { listAllDirectoryInputSchema } from "@/schema/bash";
-import type { listAllDirectoryInput } from "@/schema/bash/index.types";
-import { listAllDirectory } from "@/utils/bash";
-import { $ } from "bun";
+import { listAllDirectoryInputSchema } from "@/schema";
+import { listAllDirectory } from "@/utils";
 
 export function registerFileSystemTools() {
     const server = getMcpServer();
